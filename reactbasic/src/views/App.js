@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
+import Mycomponent from './Myconponent'
+
 
 function App() {
   return (
@@ -9,16 +11,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> oke nha.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <Mycomponent />
       </header>
     </div>
+
   );
 }
 
